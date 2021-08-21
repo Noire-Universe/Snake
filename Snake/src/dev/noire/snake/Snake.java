@@ -15,7 +15,7 @@ public class Snake extends JFrame {
 		this.setResizable(false);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setLayout(new GridLayout(1, 1, 0, 0));
-		// here we will need to load the gamePanel, once created...
+		this.add(new GamePanel());
 		this.pack();
 		this.setLocationRelativeTo(null);
 		this.setVisible(true);
